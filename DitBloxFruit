@@ -1,0 +1,50 @@
+getgenv().DitBF = {
+    ["Performance"] = {
+        ["Hide Map"] = false,
+        ["Black Screen"] = false,
+        ["Lock FPS"] = 60,
+        ["Ultra Optimize"] = false,
+    },
+    ["Fast Attack Duration/Cooldown"] = {0.1, 1},
+    ["Raid if Maxed Blox Fruit"] = true,
+    ["Farm boss drops while not maxed"] = true,
+    ["Farm Blox Fruit Mastery if maxed"] = true,
+    ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm",
+    ["Extra time Farm until unlock skills"] = true,
+    ["Hop Server"] = {
+        ["Type"] = {
+            ["[Main] Server Hop"] = true,
+            ["[Farm] Server Hop if Player nearby"] = true,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
+        },
+        ["Delay"] = 60,
+    },
+    ["Do Action"] = {
+        ["Get Godhuman"] = true,
+        ["Get Rengoku"] = false,
+        ["Get True Triple Katana"] = false,
+        ["Get Hallow Scythe"] = true,
+        ["Get Cursed Dual Katana"] = true,
+        ["Get Soul Guitar"] = true,
+        ["Awake Current Blox Fruit"] = true,
+        ["Get Mirror Fractal"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+        ["Legendary Enhancement"] = true,
+    },
+    ["Auto Race"] = "None",
+    ["Blox Fruit Sniper"] = {},
+    ["Main Blox Fruit"] = {},
+    ["Eat Sniper Blox Fruits"] = true,
+    ["Account Panel"] = {
+        ["Enable"] = false,
+        ["Delay"] = 300,
+        ["Note"] = "bede",
+    },
+}
+getgenv().Key = "k790750a7a74d9b9855d664d"
+repeat wait()spawn(function()loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()end)wait(60)until S_Timer
